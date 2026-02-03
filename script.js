@@ -368,8 +368,8 @@ function initPropertyFilter() {
                     <circle cx="11" cy="11" r="8"/>
                     <path d="M21 21l-4.35-4.35"/>
                 </svg>
-                <p>No properties match your criteria.</p>
-                <p style="font-size: 0.875rem; margin-top: 8px;">Try adjusting your filters.</p>
+                <p>Asnjë pronë nuk përputhet me kriteret tuaja.</p>
+                <p style="font-size: 0.875rem; margin-top: 8px;">Provoni të ndryshoni filtrat.</p>
             `;
             propertiesGrid.appendChild(message);
         }
@@ -417,7 +417,7 @@ function initFavorites() {
             }
 
             // Show toast notification
-            showToast(this.classList.contains('active') ? 'Added to favorites' : 'Removed from favorites');
+            showToast(this.classList.contains('active') ? 'Shtuar në të preferuarat' : 'Hequr nga të preferuarat');
         });
     });
 }
@@ -482,14 +482,14 @@ function initForms() {
 
             // Basic validation
             if (!data.firstName || !data.lastName || !data.email) {
-                showToast('Please fill in all required fields');
+                showToast('Ju lutem plotësoni të gjitha fushat e kërkuara');
                 return;
             }
 
             // Email validation
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (!emailRegex.test(data.email)) {
-                showToast('Please enter a valid email address');
+                showToast('Ju lutem vendosni një adresë email të vlefshme');
                 return;
             }
 
@@ -501,7 +501,7 @@ function initForms() {
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="animation: spin 1s linear infinite;">
                     <circle cx="12" cy="12" r="10" stroke-dasharray="31.4 31.4" stroke-dashoffset="0"/>
                 </svg>
-                <span>Sending...</span>
+                <span>Duke dërguar...</span>
             `;
             submitBtn.disabled = true;
 
@@ -516,11 +516,11 @@ function initForms() {
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M20 6L9 17l-5-5"/>
                     </svg>
-                    <span>Message Sent!</span>
+                    <span>Mesazhi u Dërgua!</span>
                 `;
                 submitBtn.style.background = '#10b981';
 
-                showToast('Thank you! We\'ll be in touch soon.');
+                showToast('Faleminderit! Do t\'ju kontaktojmë së shpejti.');
 
                 // Reset form
                 setTimeout(() => {
@@ -543,12 +543,12 @@ function initForms() {
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
             if (!emailRegex.test(email)) {
-                showToast('Please enter a valid email address');
+                showToast('Ju lutem vendosni një adresë email të vlefshme');
                 return;
             }
 
             // Simulate subscription
-            showToast('Successfully subscribed to our newsletter!');
+            showToast('U abonuat me sukses në buletinin tonë!');
             this.reset();
         });
     }

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sq">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lord Real Estate - Luxury Properties & Premium Homes">
-    <title>Lord Real Estate | Luxury Living Redefined</title>
+    <meta name="description" content="Lord Real Estate - Prona Luksoze & Apartamente Premium në Shqipëri">
+    <title>Lord Real Estate | Jetesa Luksoze në Shqipëri</title>
     <link rel="stylesheet" href="styles.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +13,7 @@
 </head>
 <body>
     <!-- ============================================
-         NAVIGATION
+         NAVIGIMI
     ============================================= -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
@@ -23,17 +23,17 @@
             </a>
 
             <ul class="nav-menu" id="navMenu">
-                <li><a href="#home" class="nav-link active">Home</a></li>
-                <li><a href="#properties" class="nav-link">Properties</a></li>
-                <li><a href="#featured" class="nav-link">Featured</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#home" class="nav-link active">Kryefaqja</a></li>
+                <li><a href="#properties" class="nav-link">Pronat</a></li>
+                <li><a href="#featured" class="nav-link">Të Veçanta</a></li>
+                <li><a href="#about" class="nav-link">Rreth Nesh</a></li>
+                <li><a href="#testimonials" class="nav-link">Dëshmitë</a></li>
+                <li><a href="#contact" class="nav-link">Kontakt</a></li>
             </ul>
 
-            <a href="#contact" class="nav-cta">Get Started</a>
+            <a href="#contact" class="nav-cta">Na Kontaktoni</a>
 
-            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <button class="hamburger" id="hamburger" aria-label="Hap menunë">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -42,102 +42,105 @@
     </nav>
 
     <!-- ============================================
-         HERO SECTION
+         SEKSIONI HERO
     ============================================= -->
     <section class="hero" id="home">
         <div class="hero-bg">
-            <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1920&q=80" alt="Luxury Home" class="hero-image">
+            <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1920&q=80" alt="Shtëpi Luksoze" class="hero-image">
             <div class="hero-overlay"></div>
         </div>
 
         <div class="hero-content">
-            <span class="hero-badge reveal-fade">Premium Real Estate</span>
+            <span class="hero-badge reveal-fade">Pasuri të Paluajtshme Premium</span>
             <h1 class="hero-title reveal-fade">
-                Discover Your <br>
-                <span class="highlight">Dream Home</span>
+                Zbuloni Shtëpinë <br>
+                <span class="highlight">e Ëndrrave Tuaja</span>
             </h1>
             <p class="hero-subtitle reveal-fade">
-                Experience luxury living with our exclusive collection of premium properties.
-                Your perfect home awaits in the most prestigious locations.
+                Përjetoni jetesën luksoze me koleksionin tonë ekskluziv të pronave premium në Shqipëri.
+                Shtëpia juaj e përsosur ju pret në lokacionet më prestigjioze.
             </p>
             <div class="hero-buttons reveal-fade">
                 <a href="#properties" class="btn btn-primary">
-                    <span>Explore Properties</span>
+                    <span>Shiko Pronat</span>
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M5 12h14M12 5l7 7-7 7"/>
                     </svg>
                 </a>
-                <a href="#about" class="btn btn-secondary">Learn More</a>
+                <a href="#about" class="btn btn-secondary">Mëso Më Shumë</a>
             </div>
 
             <div class="hero-stats reveal-fade">
                 <div class="stat">
                     <span class="stat-number">500+</span>
-                    <span class="stat-label">Properties Sold</span>
+                    <span class="stat-label">Prona të Shitura</span>
                 </div>
                 <div class="stat">
-                    <span class="stat-number">$2B+</span>
-                    <span class="stat-label">Total Value</span>
+                    <span class="stat-number">€50M+</span>
+                    <span class="stat-label">Vlera Totale</span>
                 </div>
                 <div class="stat">
                     <span class="stat-number">98%</span>
-                    <span class="stat-label">Happy Clients</span>
+                    <span class="stat-label">Klientë të Kënaqur</span>
                 </div>
             </div>
         </div>
 
         <div class="scroll-indicator">
-            <span>Scroll to explore</span>
+            <span>Lëviz për të eksploruar</span>
             <div class="scroll-arrow"></div>
         </div>
     </section>
 
     <!-- ============================================
-         SEARCH / FILTER BAR
+         SEKSIONI I KËRKIMIT
     ============================================= -->
     <section class="search-section">
         <div class="container">
             <div class="search-bar glass reveal-up">
                 <div class="search-group">
-                    <label for="location">Location</label>
+                    <label for="location">Vendndodhja</label>
                     <select id="location" class="search-input">
-                        <option value="">All Locations</option>
-                        <option value="beverly-hills">Beverly Hills</option>
-                        <option value="malibu">Malibu</option>
-                        <option value="manhattan">Manhattan</option>
-                        <option value="miami">Miami Beach</option>
-                        <option value="hamptons">The Hamptons</option>
+                        <option value="">Të Gjitha Vendndodhjet</option>
+                        <option value="tirane">Tiranë</option>
+                        <option value="durres">Durrës</option>
+                        <option value="vlore">Vlorë</option>
+                        <option value="sarande">Sarandë</option>
+                        <option value="shkoder">Shkodër</option>
+                        <option value="korce">Korçë</option>
+                        <option value="berat">Berat</option>
+                        <option value="gjirokaster">Gjirokastër</option>
                     </select>
                 </div>
 
                 <div class="search-group">
-                    <label for="propertyType">Property Type</label>
+                    <label for="propertyType">Lloji i Pronës</label>
                     <select id="propertyType" class="search-input">
-                        <option value="">All Types</option>
-                        <option value="house">House</option>
-                        <option value="apartment">Apartment</option>
+                        <option value="">Të Gjitha Llojet</option>
+                        <option value="apartment">Apartament</option>
+                        <option value="house">Shtëpi</option>
+                        <option value="villa">Vilë</option>
                         <option value="penthouse">Penthouse</option>
-                        <option value="villa">Villa</option>
-                        <option value="condo">Condo</option>
+                        <option value="duplex">Dupleks</option>
                     </select>
                 </div>
 
                 <div class="search-group">
-                    <label for="priceRange">Price Range</label>
+                    <label for="priceRange">Çmimi</label>
                     <select id="priceRange" class="search-input">
-                        <option value="">Any Price</option>
-                        <option value="0-500000">Up to $500K</option>
-                        <option value="500000-1000000">$500K - $1M</option>
-                        <option value="1000000-2500000">$1M - $2.5M</option>
-                        <option value="2500000-5000000">$2.5M - $5M</option>
-                        <option value="5000000+">$5M+</option>
+                        <option value="">Çdo Çmim</option>
+                        <option value="0-50000">Deri në €50,000</option>
+                        <option value="50000-100000">€50,000 - €100,000</option>
+                        <option value="100000-200000">€100,000 - €200,000</option>
+                        <option value="200000-500000">€200,000 - €500,000</option>
+                        <option value="500000+">€500,000+</option>
                     </select>
                 </div>
 
                 <div class="search-group">
-                    <label for="bedrooms">Bedrooms</label>
+                    <label for="bedrooms">Dhoma Gjumi</label>
                     <select id="bedrooms" class="search-input">
-                        <option value="">Any</option>
+                        <option value="">Të Gjitha</option>
                         <option value="1">1+</option>
                         <option value="2">2+</option>
                         <option value="3">3+</option>
@@ -151,32 +154,32 @@
                         <circle cx="11" cy="11" r="8"/>
                         <path d="M21 21l-4.35-4.35"/>
                     </svg>
-                    <span>Search</span>
+                    <span>Kërko</span>
                 </button>
             </div>
         </div>
     </section>
 
     <!-- ============================================
-         PROPERTY LISTINGS
+         LISTA E PRONAVE
     ============================================= -->
     <section class="properties" id="properties">
         <div class="container">
             <div class="section-header">
-                <span class="section-badge reveal-fade">Our Collection</span>
-                <h2 class="section-title reveal-fade">Exclusive Properties</h2>
+                <span class="section-badge reveal-fade">Koleksioni Ynë</span>
+                <h2 class="section-title reveal-fade">Prona Ekskluzive</h2>
                 <p class="section-subtitle reveal-fade">
-                    Discover our handpicked selection of luxury homes and premium real estate
+                    Zbuloni seleksionin tonë të përzgjedhur të shtëpive luksoze dhe pasurive premium në Shqipëri
                 </p>
             </div>
 
             <div class="properties-grid" id="propertiesGrid">
-                <!-- Property Card 1 -->
-                <article class="property-card reveal-up" data-type="villa" data-location="beverly-hills" data-price="4500000">
+                <!-- Kartela e Pronës 1 -->
+                <article class="property-card reveal-up" data-type="villa" data-location="tirane" data-price="450000">
                     <div class="property-image">
-                        <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80" alt="Modern Villa">
-                        <span class="property-badge">Featured</span>
-                        <button class="property-favorite" aria-label="Add to favorites">
+                        <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80" alt="Vilë Moderne në Tiranë">
+                        <span class="property-badge">E Veçantë</span>
+                        <button class="property-favorite" aria-label="Shto në të preferuarat">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
                             </svg>
@@ -188,28 +191,28 @@
                                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
                                 <circle cx="12" cy="10" r="3"/>
                             </svg>
-                            Beverly Hills, CA
+                            Tiranë, Blloku
                         </div>
-                        <h3 class="property-title">Modern Architectural Villa</h3>
-                        <p class="property-description">Stunning contemporary design with panoramic city views and infinity pool.</p>
+                        <h3 class="property-title">Vilë Moderne Arkitekturore</h3>
+                        <p class="property-description">Dizajn bashkëkohor mahnitës me pamje panoramike të qytetit dhe pishinë.</p>
                         <div class="property-features">
-                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> 5 Beds</span>
-                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6 6.5 3.5a1.5 1.5 0 0 0-1-.5C4.683 3 4 3.683 4 4.5V17a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5"/><line x1="10" x2="8" y1="5" y2="7"/><line x1="2" x2="22" y1="12" y2="12"/><line x1="7" x2="7" y1="19" y2="21"/><line x1="17" x2="17" y1="19" y2="21"/></svg> 6 Baths</span>
-                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/></svg> 8,500 sqft</span>
+                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> 5 Dhoma</span>
+                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6 6.5 3.5a1.5 1.5 0 0 0-1-.5C4.683 3 4 3.683 4 4.5V17a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5"/><line x1="10" x2="8" y1="5" y2="7"/><line x1="2" x2="22" y1="12" y2="12"/><line x1="7" x2="7" y1="19" y2="21"/><line x1="17" x2="17" y1="19" y2="21"/></svg> 4 Banjo</span>
+                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/></svg> 350 m²</span>
                         </div>
                         <div class="property-footer">
-                            <span class="property-price">$4,500,000</span>
-                            <a href="#" class="property-link">View Details</a>
+                            <span class="property-price">€450,000</span>
+                            <a href="#" class="property-link">Shiko Detajet</a>
                         </div>
                     </div>
                 </article>
 
-                <!-- Property Card 2 -->
-                <article class="property-card reveal-up" data-type="penthouse" data-location="manhattan" data-price="8900000">
+                <!-- Kartela e Pronës 2 -->
+                <article class="property-card reveal-up" data-type="penthouse" data-location="durres" data-price="320000">
                     <div class="property-image">
-                        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80" alt="Luxury Penthouse">
+                        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80" alt="Penthouse Luksoz në Durrës">
                         <span class="property-badge premium">Premium</span>
-                        <button class="property-favorite" aria-label="Add to favorites">
+                        <button class="property-favorite" aria-label="Shto në të preferuarat">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
                             </svg>
@@ -221,27 +224,27 @@
                                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
                                 <circle cx="12" cy="10" r="3"/>
                             </svg>
-                            Manhattan, NY
+                            Durrës, Plazhi
                         </div>
-                        <h3 class="property-title">Sky-High Luxury Penthouse</h3>
-                        <p class="property-description">Breathtaking Central Park views from this exclusive penthouse suite.</p>
+                        <h3 class="property-title">Penthouse me Pamje Deti</h3>
+                        <p class="property-description">Pamje të mrekullueshme të Detit Adriatik nga ky apartament ekskluziv.</p>
                         <div class="property-features">
-                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> 4 Beds</span>
-                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6 6.5 3.5a1.5 1.5 0 0 0-1-.5C4.683 3 4 3.683 4 4.5V17a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5"/><line x1="10" x2="8" y1="5" y2="7"/><line x1="2" x2="22" y1="12" y2="12"/><line x1="7" x2="7" y1="19" y2="21"/><line x1="17" x2="17" y1="19" y2="21"/></svg> 5 Baths</span>
-                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/></svg> 6,200 sqft</span>
+                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> 4 Dhoma</span>
+                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6 6.5 3.5a1.5 1.5 0 0 0-1-.5C4.683 3 4 3.683 4 4.5V17a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5"/><line x1="10" x2="8" y1="5" y2="7"/><line x1="2" x2="22" y1="12" y2="12"/><line x1="7" x2="7" y1="19" y2="21"/><line x1="17" x2="17" y1="19" y2="21"/></svg> 3 Banjo</span>
+                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/></svg> 220 m²</span>
                         </div>
                         <div class="property-footer">
-                            <span class="property-price">$8,900,000</span>
-                            <a href="#" class="property-link">View Details</a>
+                            <span class="property-price">€320,000</span>
+                            <a href="#" class="property-link">Shiko Detajet</a>
                         </div>
                     </div>
                 </article>
 
-                <!-- Property Card 3 -->
-                <article class="property-card reveal-up" data-type="house" data-location="malibu" data-price="12500000">
+                <!-- Kartela e Pronës 3 -->
+                <article class="property-card reveal-up" data-type="villa" data-location="sarande" data-price="580000">
                     <div class="property-image">
-                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80" alt="Beachfront Estate">
-                        <button class="property-favorite" aria-label="Add to favorites">
+                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80" alt="Vilë në Bregdet">
+                        <button class="property-favorite" aria-label="Shto në të preferuarat">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
                             </svg>
@@ -253,28 +256,28 @@
                                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
                                 <circle cx="12" cy="10" r="3"/>
                             </svg>
-                            Malibu, CA
+                            Sarandë, Riviera
                         </div>
-                        <h3 class="property-title">Beachfront Paradise Estate</h3>
-                        <p class="property-description">Direct ocean access with private beach and world-class amenities.</p>
+                        <h3 class="property-title">Vilë Luksoze në Bregdet</h3>
+                        <p class="property-description">Qasje e drejtpërdrejtë në det me plazh privat dhe komoditete të klasit botëror.</p>
                         <div class="property-features">
-                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> 7 Beds</span>
-                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6 6.5 3.5a1.5 1.5 0 0 0-1-.5C4.683 3 4 3.683 4 4.5V17a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5"/><line x1="10" x2="8" y1="5" y2="7"/><line x1="2" x2="22" y1="12" y2="12"/><line x1="7" x2="7" y1="19" y2="21"/><line x1="17" x2="17" y1="19" y2="21"/></svg> 8 Baths</span>
-                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/></svg> 12,000 sqft</span>
+                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> 6 Dhoma</span>
+                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6 6.5 3.5a1.5 1.5 0 0 0-1-.5C4.683 3 4 3.683 4 4.5V17a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5"/><line x1="10" x2="8" y1="5" y2="7"/><line x1="2" x2="22" y1="12" y2="12"/><line x1="7" x2="7" y1="19" y2="21"/><line x1="17" x2="17" y1="19" y2="21"/></svg> 5 Banjo</span>
+                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/></svg> 420 m²</span>
                         </div>
                         <div class="property-footer">
-                            <span class="property-price">$12,500,000</span>
-                            <a href="#" class="property-link">View Details</a>
+                            <span class="property-price">€580,000</span>
+                            <a href="#" class="property-link">Shiko Detajet</a>
                         </div>
                     </div>
                 </article>
 
-                <!-- Property Card 4 -->
-                <article class="property-card reveal-up" data-type="apartment" data-location="miami" data-price="2200000">
+                <!-- Kartela e Pronës 4 -->
+                <article class="property-card reveal-up" data-type="apartment" data-location="vlore" data-price="145000">
                     <div class="property-image">
-                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80" alt="Miami Apartment">
-                        <span class="property-badge new">New</span>
-                        <button class="property-favorite" aria-label="Add to favorites">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80" alt="Apartament në Vlorë">
+                        <span class="property-badge new">I Ri</span>
+                        <button class="property-favorite" aria-label="Shto në të preferuarat">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
                             </svg>
@@ -286,27 +289,27 @@
                                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
                                 <circle cx="12" cy="10" r="3"/>
                             </svg>
-                            Miami Beach, FL
+                            Vlorë, Lungomare
                         </div>
-                        <h3 class="property-title">Art Deco Oceanfront Condo</h3>
-                        <p class="property-description">Stylish living in the heart of Miami's most vibrant neighborhood.</p>
+                        <h3 class="property-title">Apartament Modern Pranë Detit</h3>
+                        <p class="property-description">Jetesë elegante në zemër të zonës më të gjallë të Vlorës.</p>
                         <div class="property-features">
-                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> 3 Beds</span>
-                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6 6.5 3.5a1.5 1.5 0 0 0-1-.5C4.683 3 4 3.683 4 4.5V17a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5"/><line x1="10" x2="8" y1="5" y2="7"/><line x1="2" x2="22" y1="12" y2="12"/><line x1="7" x2="7" y1="19" y2="21"/><line x1="17" x2="17" y1="19" y2="21"/></svg> 3 Baths</span>
-                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/></svg> 2,800 sqft</span>
+                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> 3 Dhoma</span>
+                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6 6.5 3.5a1.5 1.5 0 0 0-1-.5C4.683 3 4 3.683 4 4.5V17a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5"/><line x1="10" x2="8" y1="5" y2="7"/><line x1="2" x2="22" y1="12" y2="12"/><line x1="7" x2="7" y1="19" y2="21"/><line x1="17" x2="17" y1="19" y2="21"/></svg> 2 Banjo</span>
+                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/></svg> 125 m²</span>
                         </div>
                         <div class="property-footer">
-                            <span class="property-price">$2,200,000</span>
-                            <a href="#" class="property-link">View Details</a>
+                            <span class="property-price">€145,000</span>
+                            <a href="#" class="property-link">Shiko Detajet</a>
                         </div>
                     </div>
                 </article>
 
-                <!-- Property Card 5 -->
-                <article class="property-card reveal-up" data-type="villa" data-location="hamptons" data-price="7800000">
+                <!-- Kartela e Pronës 5 -->
+                <article class="property-card reveal-up" data-type="villa" data-location="shkoder" data-price="280000">
                     <div class="property-image">
-                        <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80" alt="Hamptons Estate">
-                        <button class="property-favorite" aria-label="Add to favorites">
+                        <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80" alt="Vilë në Shkodër">
+                        <button class="property-favorite" aria-label="Shto në të preferuarat">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
                             </svg>
@@ -318,27 +321,27 @@
                                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
                                 <circle cx="12" cy="10" r="3"/>
                             </svg>
-                            The Hamptons, NY
+                            Shkodër, Qendër
                         </div>
-                        <h3 class="property-title">Classic Hamptons Estate</h3>
-                        <p class="property-description">Timeless elegance meets modern luxury in this sprawling estate.</p>
+                        <h3 class="property-title">Vilë Tradicionale e Rinovuar</h3>
+                        <p class="property-description">Elegancë e përjetshme takon luksin modern në këtë vilë historike.</p>
                         <div class="property-features">
-                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> 6 Beds</span>
-                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6 6.5 3.5a1.5 1.5 0 0 0-1-.5C4.683 3 4 3.683 4 4.5V17a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5"/><line x1="10" x2="8" y1="5" y2="7"/><line x1="2" x2="22" y1="12" y2="12"/><line x1="7" x2="7" y1="19" y2="21"/><line x1="17" x2="17" y1="19" y2="21"/></svg> 7 Baths</span>
-                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/></svg> 9,500 sqft</span>
+                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> 5 Dhoma</span>
+                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6 6.5 3.5a1.5 1.5 0 0 0-1-.5C4.683 3 4 3.683 4 4.5V17a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5"/><line x1="10" x2="8" y1="5" y2="7"/><line x1="2" x2="22" y1="12" y2="12"/><line x1="7" x2="7" y1="19" y2="21"/><line x1="17" x2="17" y1="19" y2="21"/></svg> 4 Banjo</span>
+                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/></svg> 380 m²</span>
                         </div>
                         <div class="property-footer">
-                            <span class="property-price">$7,800,000</span>
-                            <a href="#" class="property-link">View Details</a>
+                            <span class="property-price">€280,000</span>
+                            <a href="#" class="property-link">Shiko Detajet</a>
                         </div>
                     </div>
                 </article>
 
-                <!-- Property Card 6 -->
-                <article class="property-card reveal-up" data-type="condo" data-location="beverly-hills" data-price="3200000">
+                <!-- Kartela e Pronës 6 -->
+                <article class="property-card reveal-up" data-type="duplex" data-location="tirane" data-price="195000">
                     <div class="property-image">
-                        <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80" alt="Modern Condo">
-                        <button class="property-favorite" aria-label="Add to favorites">
+                        <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80" alt="Dupleks Modern">
+                        <button class="property-favorite" aria-label="Shto në të preferuarat">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
                             </svg>
@@ -350,104 +353,104 @@
                                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
                                 <circle cx="12" cy="10" r="3"/>
                             </svg>
-                            Beverly Hills, CA
+                            Tiranë, Liqeni Artificial
                         </div>
-                        <h3 class="property-title">Designer Luxury Condo</h3>
-                        <p class="property-description">Exquisitely designed interiors with premium finishes throughout.</p>
+                        <h3 class="property-title">Dupleks Dizajner Luksoz</h3>
+                        <p class="property-description">Interiere të dizajnuara me përfundime premium në çdo cep.</p>
                         <div class="property-features">
-                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> 3 Beds</span>
-                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6 6.5 3.5a1.5 1.5 0 0 0-1-.5C4.683 3 4 3.683 4 4.5V17a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5"/><line x1="10" x2="8" y1="5" y2="7"/><line x1="2" x2="22" y1="12" y2="12"/><line x1="7" x2="7" y1="19" y2="21"/><line x1="17" x2="17" y1="19" y2="21"/></svg> 4 Baths</span>
-                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/></svg> 3,400 sqft</span>
+                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> 3 Dhoma</span>
+                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6 6.5 3.5a1.5 1.5 0 0 0-1-.5C4.683 3 4 3.683 4 4.5V17a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5"/><line x1="10" x2="8" y1="5" y2="7"/><line x1="2" x2="22" y1="12" y2="12"/><line x1="7" x2="7" y1="19" y2="21"/><line x1="17" x2="17" y1="19" y2="21"/></svg> 2 Banjo</span>
+                            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/></svg> 165 m²</span>
                         </div>
                         <div class="property-footer">
-                            <span class="property-price">$3,200,000</span>
-                            <a href="#" class="property-link">View Details</a>
+                            <span class="property-price">€195,000</span>
+                            <a href="#" class="property-link">Shiko Detajet</a>
                         </div>
                     </div>
                 </article>
             </div>
 
             <div class="properties-cta reveal-fade">
-                <a href="#" class="btn btn-outline">View All Properties</a>
+                <a href="#" class="btn btn-outline">Shiko Të Gjitha Pronat</a>
             </div>
         </div>
     </section>
 
     <!-- ============================================
-         FEATURED PROPERTIES
+         PRONAT E VEÇANTA
     ============================================= -->
     <section class="featured" id="featured">
         <div class="container">
             <div class="section-header">
-                <span class="section-badge reveal-fade">Handpicked</span>
-                <h2 class="section-title reveal-fade">Featured Listings</h2>
+                <span class="section-badge reveal-fade">Të Përzgjedhura</span>
+                <h2 class="section-title reveal-fade">Oferta të Veçanta</h2>
                 <p class="section-subtitle reveal-fade">
-                    Our most exclusive properties, personally curated for discerning buyers
+                    Pronat tona më ekskluzive, të përzgjedhura personalisht për blerësit më kërektues
                 </p>
             </div>
 
             <div class="featured-grid">
                 <article class="featured-card main reveal-up">
                     <div class="featured-image">
-                        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80" alt="Featured Property">
+                        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80" alt="Pronë e Veçantë">
                         <div class="featured-overlay">
-                            <span class="featured-badge">Exclusive Listing</span>
+                            <span class="featured-badge">Ofertë Ekskluzive</span>
                         </div>
                     </div>
                     <div class="featured-content">
-                        <span class="featured-location">Bel Air, Los Angeles</span>
-                        <h3 class="featured-title">Ultra-Luxury Hillside Mansion</h3>
+                        <span class="featured-location">Himarë, Riviera Shqiptare</span>
+                        <h3 class="featured-title">Vilë Ultra-Luksoze në Kodër</h3>
                         <p class="featured-description">
-                            An architectural masterpiece featuring 25,000 sqft of living space,
-                            infinity pools, private cinema, and unparalleled views of the LA skyline.
+                            Një kryevepër arkitekturore me 500 m² hapësirë jetese,
+                            pishinë pa fund, kinema private dhe pamje të pakrahasueshme të Detit Jon.
                         </p>
                         <div class="featured-details">
-                            <span>8 Bedrooms</span>
-                            <span>12 Bathrooms</span>
-                            <span>25,000 sqft</span>
-                            <span>2.5 Acres</span>
+                            <span>6 Dhoma Gjumi</span>
+                            <span>5 Banjo</span>
+                            <span>500 m²</span>
+                            <span>2,000 m² Truall</span>
                         </div>
                         <div class="featured-footer">
-                            <span class="featured-price">$45,000,000</span>
-                            <a href="#" class="btn btn-primary">Schedule Viewing</a>
+                            <span class="featured-price">€1,200,000</span>
+                            <a href="#" class="btn btn-primary">Rezervo Vizitë</a>
                         </div>
                     </div>
                 </article>
 
                 <article class="featured-card secondary reveal-up">
                     <div class="featured-image">
-                        <img src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=800&q=80" alt="Featured Property 2">
+                        <img src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=800&q=80" alt="Pronë e Veçantë 2">
                     </div>
                     <div class="featured-content">
-                        <span class="featured-location">Aspen, Colorado</span>
-                        <h3 class="featured-title">Mountain Retreat Lodge</h3>
+                        <span class="featured-location">Pogradec, Liqeni i Ohrit</span>
+                        <h3 class="featured-title">Rezidencë Lakeside Premium</h3>
                         <div class="featured-details">
-                            <span>6 Beds</span>
-                            <span>8 Baths</span>
-                            <span>15,000 sqft</span>
+                            <span>5 Dhoma</span>
+                            <span>4 Banjo</span>
+                            <span>380 m²</span>
                         </div>
                         <div class="featured-footer">
-                            <span class="featured-price">$28,500,000</span>
-                            <a href="#" class="property-link">View Details</a>
+                            <span class="featured-price">€420,000</span>
+                            <a href="#" class="property-link">Shiko Detajet</a>
                         </div>
                     </div>
                 </article>
 
                 <article class="featured-card secondary reveal-up">
                     <div class="featured-image">
-                        <img src="https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?w=800&q=80" alt="Featured Property 3">
+                        <img src="https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?w=800&q=80" alt="Pronë e Veçantë 3">
                     </div>
                     <div class="featured-content">
-                        <span class="featured-location">Lake Tahoe, Nevada</span>
-                        <h3 class="featured-title">Lakefront Estate</h3>
+                        <span class="featured-location">Korçë, Qendër Historike</span>
+                        <h3 class="featured-title">Apartament Heritage Premium</h3>
                         <div class="featured-details">
-                            <span>5 Beds</span>
-                            <span>6 Baths</span>
-                            <span>8,500 sqft</span>
+                            <span>4 Dhoma</span>
+                            <span>3 Banjo</span>
+                            <span>200 m²</span>
                         </div>
                         <div class="featured-footer">
-                            <span class="featured-price">$18,750,000</span>
-                            <a href="#" class="property-link">View Details</a>
+                            <span class="featured-price">€185,000</span>
+                            <a href="#" class="property-link">Shiko Detajet</a>
                         </div>
                     </div>
                 </article>
@@ -456,18 +459,19 @@
     </section>
 
     <!-- ============================================
-         ABOUT / WHY CHOOSE US
+         RRETH NESH / PSE NE
     ============================================= -->
     <section class="about" id="about">
         <div class="container">
             <div class="about-grid">
                 <div class="about-content">
-                    <span class="section-badge reveal-fade">About Us</span>
-                    <h2 class="section-title reveal-fade">Why Choose Lord Real Estate</h2>
+                    <span class="section-badge reveal-fade">Rreth Nesh</span>
+                    <h2 class="section-title reveal-fade">Pse të Zgjidhni Lord Real Estate</h2>
                     <p class="about-text reveal-fade">
-                        For over two decades, Lord Real Estate has been the premier destination for luxury
-                        property seekers. Our commitment to excellence, discretion, and personalized service
-                        has made us the trusted choice for high-net-worth individuals worldwide.
+                        Për më shumë se dy dekada, Lord Real Estate ka qenë destinacioni kryesor për
+                        kërkuesit e pronave luksoze në Shqipëri. Angazhimi ynë për përsosmëri, diskrecion
+                        dhe shërbim të personalizuar na ka bërë zgjedhjen e besuar për individët
+                        më të suksesshëm në vend dhe jashtë.
                     </p>
 
                     <div class="about-features">
@@ -479,8 +483,8 @@
                                 </svg>
                             </div>
                             <div class="feature-content">
-                                <h4>Trusted Expertise</h4>
-                                <p>20+ years of luxury market experience with $2B+ in transactions</p>
+                                <h4>Ekspertizë e Besuar</h4>
+                                <p>20+ vite përvojë në tregun e pronave luksoze me €50M+ në transaksione</p>
                             </div>
                         </div>
 
@@ -492,8 +496,8 @@
                                 </svg>
                             </div>
                             <div class="feature-content">
-                                <h4>24/7 Concierge</h4>
-                                <p>Round-the-clock personalized service for all your needs</p>
+                                <h4>Shërbim 24/7</h4>
+                                <p>Shërbim i personalizuar gjatë gjithë kohës për të gjitha nevojat tuaja</p>
                             </div>
                         </div>
 
@@ -505,8 +509,8 @@
                                 </svg>
                             </div>
                             <div class="feature-content">
-                                <h4>Global Network</h4>
-                                <p>Access to exclusive off-market properties worldwide</p>
+                                <h4>Rrjet i Gjerë</h4>
+                                <p>Qasje në prona ekskluzive jashtë tregut në të gjithë Shqipërinë</p>
                             </div>
                         </div>
 
@@ -520,14 +524,14 @@
                                 </svg>
                             </div>
                             <div class="feature-content">
-                                <h4>Elite Clientele</h4>
-                                <p>Serving Fortune 500 executives, celebrities, and investors</p>
+                                <h4>Klientelë Elite</h4>
+                                <p>Shërbejmë drejtues biznesi, diplomatë dhe investitorë ndërkombëtarë</p>
                             </div>
                         </div>
                     </div>
 
                     <a href="#contact" class="btn btn-primary reveal-fade">
-                        <span>Connect With Us</span>
+                        <span>Lidhu me Ne</span>
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M5 12h14M12 5l7 7-7 7"/>
                         </svg>
@@ -536,19 +540,19 @@
 
                 <div class="about-images reveal-up">
                     <div class="about-image main">
-                        <img src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800&q=80" alt="Luxury Interior">
+                        <img src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800&q=80" alt="Interior Luksoz">
                     </div>
                     <div class="about-image secondary">
-                        <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=600&q=80" alt="Modern Architecture">
+                        <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=600&q=80" alt="Arkitekturë Moderne">
                     </div>
                     <div class="about-stats glass">
                         <div class="about-stat">
                             <span class="stat-number">500+</span>
-                            <span class="stat-label">Properties Sold</span>
+                            <span class="stat-label">Prona të Shitura</span>
                         </div>
                         <div class="about-stat">
                             <span class="stat-number">50+</span>
-                            <span class="stat-label">Expert Agents</span>
+                            <span class="stat-label">Agjentë Ekspertë</span>
                         </div>
                     </div>
                 </div>
@@ -557,15 +561,15 @@
     </section>
 
     <!-- ============================================
-         TESTIMONIALS
+         DËSHMITË
     ============================================= -->
     <section class="testimonials" id="testimonials">
         <div class="container">
             <div class="section-header">
-                <span class="section-badge reveal-fade">Testimonials</span>
-                <h2 class="section-title reveal-fade">What Our Clients Say</h2>
+                <span class="section-badge reveal-fade">Dëshmitë</span>
+                <h2 class="section-title reveal-fade">Çfarë Thonë Klientët Tanë</h2>
                 <p class="section-subtitle reveal-fade">
-                    Hear from satisfied homeowners who found their dream properties with us
+                    Dëgjoni nga pronarët e kënaqur që gjetën pronat e ëndrrave me ne
                 </p>
             </div>
 
@@ -580,15 +584,15 @@
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                         </div>
                         <p class="testimonial-text">
-                            "Lord Real Estate made our dream of owning a Malibu beachfront property a reality.
-                            Their attention to detail and understanding of our needs was exceptional. The entire
-                            process was seamless."
+                            "Lord Real Estate e bëri realitet ëndrrën tonë për një vilë në bregdet në Sarandë.
+                            Vëmendja e tyre ndaj detajeve dhe kuptimi i nevojave tona ishte i jashtëzakonshëm.
+                            I gjithë procesi ishte i qetë dhe profesional."
                         </p>
                         <div class="testimonial-author">
-                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt="Michael R.">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt="Artan K.">
                             <div class="author-info">
-                                <h5>Michael Richardson</h5>
-                                <span>CEO, Tech Ventures</span>
+                                <h5>Artan Krasniqi</h5>
+                                <span>Drejtor Ekzekutiv, Tech Solutions</span>
                             </div>
                         </div>
                     </div>
@@ -602,15 +606,15 @@
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                         </div>
                         <p class="testimonial-text">
-                            "Working with Lord Real Estate was an absolute pleasure. They found us an off-market
-                            penthouse in Manhattan that exceeded all our expectations. Their network is truly
-                            unmatched."
+                            "Puna me Lord Real Estate ishte një kënaqësi absolute. Na gjetën një penthouse
+                            ekskluziv në Tiranë që tejkaloi të gjitha pritshmëritë tona. Rrjeti i tyre është
+                            vërtet i pakrahasueshëm."
                         </p>
                         <div class="testimonial-author">
-                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" alt="Sarah J.">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" alt="Elira M.">
                             <div class="author-info">
-                                <h5>Sarah Johnson</h5>
-                                <span>Fashion Designer</span>
+                                <h5>Elira Muçaj</h5>
+                                <span>Avokate, Muçaj & Partners</span>
                             </div>
                         </div>
                     </div>
@@ -624,15 +628,15 @@
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                         </div>
                         <p class="testimonial-text">
-                            "The team's expertise in luxury real estate is remarkable. They guided us through
-                            purchasing our vacation home in the Hamptons with incredible professionalism and
-                            discretion."
+                            "Ekspertiza e ekipit në pasuritë e paluajtshme luksoze është e jashtëzakonshme.
+                            Na udhëhoqën përmes blerjes së shtëpisë sonë të pushimeve në Vlorë me profesionalizëm
+                            dhe diskrecion të pabesueshëm."
                         </p>
                         <div class="testimonial-author">
-                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80" alt="David C.">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80" alt="Besnik H.">
                             <div class="author-info">
-                                <h5>David Chen</h5>
-                                <span>Investment Banker</span>
+                                <h5>Besnik Hoxha</h5>
+                                <span>Investitor, Hoxha Investments</span>
                             </div>
                         </div>
                     </div>
@@ -646,28 +650,28 @@
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                         </div>
                         <p class="testimonial-text">
-                            "From our first consultation to closing day, Lord Real Estate exceeded every
-                            expectation. They truly understand the luxury market and deliver results that
-                            speak for themselves."
+                            "Nga konsultimi i parë deri në ditën e mbylljes, Lord Real Estate tejkaloi çdo
+                            pritshmëri. Ata vërtet e kuptojnë tregun e luksit dhe japin rezultate që
+                            flasin vetë."
                         </p>
                         <div class="testimonial-author">
-                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80" alt="Emily W.">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80" alt="Flutura B.">
                             <div class="author-info">
-                                <h5>Emily Williams</h5>
-                                <span>Film Producer</span>
+                                <h5>Flutura Basha</h5>
+                                <span>Arkitekte, Studio Moderna</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="testimonials-nav">
-                    <button class="testimonial-btn prev" id="prevBtn" aria-label="Previous testimonial">
+                    <button class="testimonial-btn prev" id="prevBtn" aria-label="Dëshmia e mëparshme">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M19 12H5M12 19l-7-7 7-7"/>
                         </svg>
                     </button>
                     <div class="testimonials-dots" id="testimonialsDots"></div>
-                    <button class="testimonial-btn next" id="nextBtn" aria-label="Next testimonial">
+                    <button class="testimonial-btn next" id="nextBtn" aria-label="Dëshmia e ardhshme">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M5 12h14M12 5l7 7-7 7"/>
                         </svg>
@@ -678,17 +682,17 @@
     </section>
 
     <!-- ============================================
-         CONTACT SECTION
+         SEKSIONI I KONTAKTIT
     ============================================= -->
     <section class="contact" id="contact">
         <div class="container">
             <div class="contact-grid">
                 <div class="contact-info">
-                    <span class="section-badge reveal-fade">Get In Touch</span>
-                    <h2 class="section-title reveal-fade">Let's Find Your Perfect Home</h2>
+                    <span class="section-badge reveal-fade">Na Kontaktoni</span>
+                    <h2 class="section-title reveal-fade">Le të Gjejmë Shtëpinë Tuaj të Përsosur</h2>
                     <p class="contact-text reveal-fade">
-                        Ready to start your journey to luxury living? Our team of expert advisors
-                        is here to help you every step of the way.
+                        Gati për të filluar udhëtimin tuaj drejt jetesës luksoze? Ekipi ynë i këshilltarëve
+                        ekspertë është këtu për t'ju ndihmuar në çdo hap të rrugës.
                     </p>
 
                     <div class="contact-details reveal-up">
@@ -700,8 +704,8 @@
                                 </svg>
                             </div>
                             <div>
-                                <h5>Visit Us</h5>
-                                <p>9876 Luxury Lane, Suite 500<br>Beverly Hills, CA 90210</p>
+                                <h5>Na Vizitoni</h5>
+                                <p>Rruga Ismail Qemali, Nr. 27<br>Tiranë, Shqipëri 1001</p>
                             </div>
                         </div>
 
@@ -712,8 +716,8 @@
                                 </svg>
                             </div>
                             <div>
-                                <h5>Call Us</h5>
-                                <p>+1 (888) 555-LORD<br>Mon-Sat: 9AM - 8PM</p>
+                                <h5>Na Telefononi</h5>
+                                <p>+355 44 123 456<br>Hënë-Shtunë: 09:00 - 20:00</p>
                             </div>
                         </div>
 
@@ -725,8 +729,8 @@
                                 </svg>
                             </div>
                             <div>
-                                <h5>Email Us</h5>
-                                <p>luxury@lordrealestate.com<br>concierge@lordrealestate.com</p>
+                                <h5>Na Shkruani</h5>
+                                <p>info@lordrealestate.al<br>vip@lordrealestate.al</p>
                             </div>
                         </div>
                     </div>
@@ -751,9 +755,9 @@
                                 <circle cx="4" cy="4" r="2"/>
                             </svg>
                         </a>
-                        <a href="#" class="social-link" aria-label="Twitter">
+                        <a href="#" class="social-link" aria-label="WhatsApp">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
                             </svg>
                         </a>
                     </div>
@@ -762,57 +766,57 @@
                 <form class="contact-form glass reveal-up" id="contactForm">
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="firstName">First Name</label>
-                            <input type="text" id="firstName" name="firstName" placeholder="John" required>
+                            <label for="firstName">Emri</label>
+                            <input type="text" id="firstName" name="firstName" placeholder="Emri juaj" required>
                         </div>
                         <div class="form-group">
-                            <label for="lastName">Last Name</label>
-                            <input type="text" id="lastName" name="lastName" placeholder="Doe" required>
+                            <label for="lastName">Mbiemri</label>
+                            <input type="text" id="lastName" name="lastName" placeholder="Mbiemri juaj" required>
                         </div>
                     </div>
 
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="emri@email.com" required>
                         </div>
                         <div class="form-group">
-                            <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000">
+                            <label for="phone">Numri i Telefonit</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+355 6X XXX XXXX">
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label for="interest">I'm Interested In</label>
+                        <label for="interest">Jam i Interesuar Për</label>
                         <select id="interest" name="interest">
-                            <option value="">Select an option</option>
-                            <option value="buying">Buying a Property</option>
-                            <option value="selling">Selling a Property</option>
-                            <option value="renting">Renting a Property</option>
-                            <option value="investing">Property Investment</option>
-                            <option value="consultation">General Consultation</option>
+                            <option value="">Zgjidhni një opsion</option>
+                            <option value="buying">Blerje Prone</option>
+                            <option value="selling">Shitje Prone</option>
+                            <option value="renting">Qiramarrje</option>
+                            <option value="investing">Investim në Pasuri</option>
+                            <option value="consultation">Konsultim i Përgjithshëm</option>
                         </select>
                     </div>
 
                     <div class="form-group">
-                        <label for="budget">Budget Range</label>
+                        <label for="budget">Buxheti</label>
                         <select id="budget" name="budget">
-                            <option value="">Select your budget</option>
-                            <option value="1m-2m">$1M - $2M</option>
-                            <option value="2m-5m">$2M - $5M</option>
-                            <option value="5m-10m">$5M - $10M</option>
-                            <option value="10m-25m">$10M - $25M</option>
-                            <option value="25m+">$25M+</option>
+                            <option value="">Zgjidhni buxhetin tuaj</option>
+                            <option value="50k-100k">€50,000 - €100,000</option>
+                            <option value="100k-200k">€100,000 - €200,000</option>
+                            <option value="200k-500k">€200,000 - €500,000</option>
+                            <option value="500k-1m">€500,000 - €1,000,000</option>
+                            <option value="1m+">€1,000,000+</option>
                         </select>
                     </div>
 
                     <div class="form-group">
-                        <label for="message">Your Message</label>
-                        <textarea id="message" name="message" rows="4" placeholder="Tell us about your dream property..."></textarea>
+                        <label for="message">Mesazhi Juaj</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Na tregoni për pronën e ëndrrave tuaja..."></textarea>
                     </div>
 
                     <button type="submit" class="btn btn-primary btn-full">
-                        <span>Send Message</span>
+                        <span>Dërgo Mesazhin</span>
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <line x1="22" y1="2" x2="11" y2="13"/>
                             <polygon points="22 2 15 22 11 13 2 9 22 2"/>
@@ -820,7 +824,7 @@
                     </button>
 
                     <p class="form-note">
-                        By submitting this form, you agree to our Privacy Policy and Terms of Service.
+                        Duke dërguar këtë formular, pranoni Politikën e Privatësisë dhe Kushtet e Shërbimit.
                     </p>
                 </form>
             </div>
@@ -839,8 +843,8 @@
                         <span class="logo-sub">Real Estate</span>
                     </a>
                     <p class="footer-about">
-                        For over 20 years, Lord Real Estate has been the premier destination
-                        for luxury property seekers worldwide.
+                        Për më shumë se 20 vite, Lord Real Estate ka qenë destinacioni kryesor
+                        për kërkuesit e pronave luksoze në të gjithë Shqipërinë.
                     </p>
                     <div class="footer-social">
                         <a href="#" aria-label="Facebook">
@@ -862,53 +866,53 @@
                                 <circle cx="4" cy="4" r="2"/>
                             </svg>
                         </a>
-                        <a href="#" aria-label="Twitter">
+                        <a href="#" aria-label="WhatsApp">
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
                             </svg>
                         </a>
                     </div>
                 </div>
 
                 <div class="footer-links">
-                    <h4>Quick Links</h4>
+                    <h4>Lidhje të Shpejta</h4>
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#properties">Properties</a></li>
-                        <li><a href="#featured">Featured</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#home">Kryefaqja</a></li>
+                        <li><a href="#properties">Pronat</a></li>
+                        <li><a href="#featured">Të Veçanta</a></li>
+                        <li><a href="#about">Rreth Nesh</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-links">
-                    <h4>Property Types</h4>
+                    <h4>Llojet e Pronave</h4>
                     <ul>
-                        <li><a href="#">Luxury Homes</a></li>
-                        <li><a href="#">Penthouses</a></li>
-                        <li><a href="#">Beachfront</a></li>
-                        <li><a href="#">Estates</a></li>
-                        <li><a href="#">Condominiums</a></li>
+                        <li><a href="#">Apartamente</a></li>
+                        <li><a href="#">Vila Luksoze</a></li>
+                        <li><a href="#">Penthouse</a></li>
+                        <li><a href="#">Shtëpi në Bregdet</a></li>
+                        <li><a href="#">Dupleks</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-links">
-                    <h4>Locations</h4>
+                    <h4>Vendndodhjet</h4>
                     <ul>
-                        <li><a href="#">Beverly Hills</a></li>
-                        <li><a href="#">Manhattan</a></li>
-                        <li><a href="#">Miami Beach</a></li>
-                        <li><a href="#">The Hamptons</a></li>
-                        <li><a href="#">Malibu</a></li>
+                        <li><a href="#">Tiranë</a></li>
+                        <li><a href="#">Durrës</a></li>
+                        <li><a href="#">Vlorë</a></li>
+                        <li><a href="#">Sarandë</a></li>
+                        <li><a href="#">Shkodër</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-newsletter">
-                    <h4>Newsletter</h4>
-                    <p>Subscribe to receive exclusive listings and market insights.</p>
+                    <h4>Buletini</h4>
+                    <p>Abonohuni për të marrë ofertat ekskluzive dhe njoftime për tregun.</p>
                     <form class="newsletter-form" id="newsletterForm">
-                        <input type="email" placeholder="Enter your email" required>
-                        <button type="submit" aria-label="Subscribe">
+                        <input type="email" placeholder="Email-i juaj" required>
+                        <button type="submit" aria-label="Abonohu">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M5 12h14M12 5l7 7-7 7"/>
                             </svg>
@@ -918,11 +922,11 @@
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2024 Lord Real Estate. All rights reserved.</p>
+                <p>&copy; 2024 Lord Real Estate. Të gjitha të drejtat e rezervuara.</p>
                 <div class="footer-legal">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
-                    <a href="#">Cookie Policy</a>
+                    <a href="#">Politika e Privatësisë</a>
+                    <a href="#">Kushtet e Shërbimit</a>
+                    <a href="#">Cookies</a>
                 </div>
             </div>
         </div>
